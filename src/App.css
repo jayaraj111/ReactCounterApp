@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -27,6 +28,17 @@
 .App-link {
   color: #61dafb;
 }
+.centered-div {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  margin-top: 10rem;
+}
+.button-container button {
+  margin-right: 10px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
